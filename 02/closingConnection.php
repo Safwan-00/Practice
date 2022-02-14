@@ -5,6 +5,7 @@
 	<title>
 		
 	</title>
+
 </head>
 <body>
 
@@ -21,7 +22,9 @@
 			die("Connection failed: " . mysqli_connect_error()); 
 		} 
 		echo "Connected successfully"; 
+
 		mysqli_close($conn); 
+		
 	?> 
 
 
