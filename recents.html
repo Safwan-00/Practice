@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+     <link rel="stylesheet" type="text/css" href="styleTrips.css">
+    <title>Recent Trips</title>
+</head>
+<body>
+    <div class="container">
+        <div class="col-xs-6 col-sm-6 col-md-12 col-lg-12">
+            <div class="jumbotron">
+                <a href="Home.html"><h6 align = "center" ><img src="Pictures/hosse.png" ></h6></a>
+                    <h2 align="center" style="color:crimson;" ><b>Previously Completed Trips</b></h2>
+</div>
+                    <!-- <?php
+                    //error_reporting(0);
+                    $servername = "localhost";
+                    $username = "root";
+                    $password = "";
+                    $dbname = "excursionnest";
+
+                    // Create connection
+                    $conn = mysqli_connect($servername, $username, $password, $dbname);
+                    // Check connection
+                    if(!$conn)
+                        {
+                            die("Connection failed: " . mysqli_connect_error());
+                        }
+                        $sql = "SELECT * FROM pre";
+                        $result = mysqli_query($conn, $sql);
+                        echo "<table border='1' align = 'Center'>";
+                        echo "<tr>";
+                        echo "<th>Departure From</th><th>Departure Time</th>
+                        <th>Destination</th><th>Return Time</th><th>Hotel Name</th>
+                        <th>Cost</th><th>Persons</th><th>Others</th>";
+                        echo "</tr>";
+
+                        if (mysqli_num_rows($result) > 0)
+                        {
+                             // output data of each row
+                             while($row = mysqli_fetch_assoc($result))
+                             {
+                                 echo "<tr>";
+                                 echo "<td>" . $row['StartP'] . "</td>";
+                                 echo "<td>" . $row['StartD'] . "</td>";
+                                 echo "<td>" . $row['togo'] . "</td>";
+                                 echo "<td>" . $row['EndIng'] . "</td>";
+                                 echo "<td>" . $row['HOTEL'] . "</td>";
+                                 echo "<td>" . $row['COST'] . "</td>";
+                                 echo "<td>" . $row['PERSON'] . "</td>";
+                                 echo "<td>" . $row['Others'] . "</td>";
+                                 echo "</tr>";
+                             }
+                        }
+                        else
+                        {
+                            echo "0 results";
+                        }
+                        echo "</table>";
+
+
+                       ?>       -->
+
+                  </div>
+</body>
+</html>
